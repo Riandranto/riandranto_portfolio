@@ -1,0 +1,16 @@
+[build]
+  # Commande pour construire le projet
+  command = "npm ci && npm run build"
+  
+  # Dossier à publier sur Netlify après build
+  publish = "dist"
+
+# Environnement Node.js recommandé
+[build.environment]
+  NODE_VERSION = "20"  # ou la version exacte que tu utilises localement
+
+# Facultatif : redirections pour SPA (React Router / Vite)
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

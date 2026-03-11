@@ -26,10 +26,10 @@ export default function Skills() {
       name: "Frontend",
       icon: "🎨",
       skills: [
-        { name: "React.js", level: 85, color: "from-blue-500 to-cyan-500", icon: "⚛️" },
-        { name: "JavaScript", level: 80, color: "from-yellow-500 to-orange-500", icon: "🟨" },
-        { name: "TypeScript", level: 70, color: "from-blue-600 to-blue-400", icon: "🔷" },
-        { name: "Tailwind CSS", level: 90, color: "from-cyan-500 to-teal-500", icon: "🎨" },
+        { name: "React.js", level: 65, color: "from-blue-500 to-cyan-500", icon: "⚛️" },
+        { name: "JavaScript", level: 70, color: "from-yellow-500 to-orange-500", icon: "🟨" },
+        { name: "TypeScript", level: 40, color: "from-blue-600 to-blue-400", icon: "🔷" },
+        { name: "Tailwind CSS", level: 50, color: "from-cyan-500 to-teal-500", icon: "🎨" },
         { name: "HTML/CSS", level: 90, color: "from-orange-500 to-red-500", icon: "🌐" }
       ]
     },
@@ -37,11 +37,11 @@ export default function Skills() {
       name: "Backend",
       icon: "⚙️",
       skills: [
-        { name: "Python", level: 75, color: "from-green-500 to-emerald-500", icon: "🐍" },
-        { name: "Java", level: 70, color: "from-red-500 to-orange-500", icon: "☕" },
+        { name: "Python", level: 30, color: "from-green-500 to-emerald-500", icon: "🐍" },
+        { name: "Java", level: 65, color: "from-red-500 to-orange-500", icon: "☕" },
         { name: "PHP", level: 65, color: "from-purple-500 to-pink-500", icon: "🐘" },
-        { name: "Node.js", level: 70, color: "from-green-600 to-emerald-600", icon: "🟢" },
-        { name: "Django", level: 70, color: "from-green-700 to-green-500", icon: "🎯" }
+        { name: "Node.js", level: 30, color: "from-green-600 to-emerald-600", icon: "🟢" },
+        { name: "Django", level: 30, color: "from-green-700 to-green-500", icon: "🎯" }
       ]
     },
     {
@@ -51,17 +51,17 @@ export default function Skills() {
         { name: "PostgreSQL", level: 75, color: "from-blue-600 to-indigo-600", icon: "🐘" },
         { name: "MySQL", level: 80, color: "from-orange-600 to-yellow-600", icon: "🐬" },
         { name: "MongoDB", level: 65, color: "from-green-600 to-emerald-600", icon: "🍃" },
-        { name: "SQLite", level: 70, color: "from-blue-400 to-cyan-400", icon: "📁" }
+        { name: "SQLite", level: 65, color: "from-blue-400 to-cyan-400", icon: "📁" }
       ]
     },
     {
       name: "Outils & DevOps",
       icon: "🛠️",
       skills: [
-        { name: "Git", level: 85, color: "from-orange-600 to-red-600", icon: "📦" },
+        { name: "Git", level: 55, color: "from-orange-600 to-red-600", icon: "📦" },
         { name: "Docker", level: 60, color: "from-blue-500 to-indigo-500", icon: "🐳" },
         { name: "VS Code", level: 90, color: "from-blue-400 to-blue-600", icon: "💻" },
-        { name: "Postman", level: 75, color: "from-orange-500 to-red-500", icon: "📮" }
+        { name: "Postman", level: 65, color: "from-orange-500 to-red-500", icon: "📮" }
       ]
     }
   ]
